@@ -58,10 +58,6 @@ img, svg {
 	height: auto;
 }
 
-address {
-  font-style: normal;
-}
-
 /* Form */
 
 input, textarea, button, select {

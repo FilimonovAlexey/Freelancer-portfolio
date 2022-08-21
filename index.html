@@ -5,14 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelancer portfolio</title>
-    <link rel="styledheet" href="./styles/style.css"
-    <link rel="styledheet" href="./styles/media.css"
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media.css">
 </head>
 <body>
 
-    <h1>Hello world</h1>
-    
+    <header class="header">
+        <div class="container">
+            <div class="header-nav">
+                <a href="#!" class="logo">Kelvin</a>
 
+                <nav id="nav" class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#!" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Works</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="#!" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button id="nav-btn" class="nav-button">
+                        <img id="nav-btn-img" src="./img/icons/nav-open.svg" alt="Nav button">
+                    </button>
+                </nav>
+            </div>
+
+            <!--Header content-->
+            <div class="header-row">
+
+                <div class="header-content" data-aos="fade-up">
+                    <h1 class="header-heading">Kelvin Kramer<br> <span>Designer & Developer</span></h1>
+                    <p>I’m a portrait, fashion and lifestyle photographer living In New York City. During my thirteen year tenure here.</p>
+                </div>
+
+                <div class="header-img" data-aos="fade-left">
+
+                    <picture>
+                        <source media="(max-width: 799px)" srcset="./img/header/hero-mobile.png">
+                        <img src="./img/header/hero.png" alt="">
+                    </picture>
+
+
+                </div>
+            </div>
+        </div>
+    </header>
+    
     <script src="./scripts/index.js"></script>
 </body>
 </html>
