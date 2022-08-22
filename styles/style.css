@@ -4,6 +4,7 @@
 body {
     color: #000;
     font-family: 'Poppins', sans-serif;
+    font-size: 14px;
 }
 
 .container {
@@ -12,7 +13,36 @@ body {
     margin: 0 auto;
 }
 
+.title-1 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+
+    font-size: 18px;
+    color: #fff;
+
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #323232;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #000000;
+}
+
+
 /* Header */
+
 .header {
     padding-top: 46px;
     background-color: #F1F1F1;
@@ -22,11 +52,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+
+    margin-bottom: 76px;
 }
 
 .logo {
     position: relative;
     padding: 0 12px 3px 0;
+
     font-weight: 700;
     font-size: 32px;
     line-height: 1;
@@ -37,6 +70,7 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
+
     content: "";
     display: block;
     width: 8px;
@@ -46,6 +80,7 @@ body {
 }
 
 /* Nav */
+
 .nav-list {
     display: flex;
     column-gap: 50px;
@@ -65,10 +100,10 @@ body {
     color: #606060;
 }
 
-/* Header content*/
+/* Header content */
+
 .header-row {
-    display: flex;
-    justify-content: space-between;
+    display: flex;justify-content: space-between;
     column-gap: 30px;
 }
 
@@ -88,6 +123,7 @@ body {
 }
 
 /* Service */
+
 .services {
     padding: 90px 0;
 }
@@ -120,6 +156,7 @@ body {
 }
 
 /* Portfolio */
+
 .portfolio {
     padding: 90px 0;
     background-color: #F1F1F1;
@@ -152,6 +189,7 @@ body {
 }
 
 /* Footer */
+
 .contacts {
     padding: 90px 0;
     text-align: center;
